@@ -1,0 +1,11 @@
+/home/bohdan/RiderProjects/naftamessanger/nafta.messenger/nafta.messenger.api/nafta.messenger.api/bin/Debug/netcoreapp2.0/nafta.messenger.api.deps.json
+/home/bohdan/RiderProjects/naftamessanger/nafta.messenger/nafta.messenger.api/nafta.messenger.api/bin/Debug/netcoreapp2.0/nafta.messenger.api.runtimeconfig.json
+/home/bohdan/RiderProjects/naftamessanger/nafta.messenger/nafta.messenger.api/nafta.messenger.api/bin/Debug/netcoreapp2.0/nafta.messenger.api.runtimeconfig.dev.json
+/home/bohdan/RiderProjects/naftamessanger/nafta.messenger/nafta.messenger.api/nafta.messenger.api/bin/Debug/netcoreapp2.0/nafta.messenger.api.dll
+/home/bohdan/RiderProjects/naftamessanger/nafta.messenger/nafta.messenger.api/nafta.messenger.api/bin/Debug/netcoreapp2.0/nafta.messenger.api.pdb
+/home/bohdan/RiderProjects/naftamessanger/nafta.messenger/nafta.messenger.api/nafta.messenger.api/obj/Debug/netcoreapp2.0/nafta.messenger.api.csprojResolveAssemblyReference.cache
+/home/bohdan/RiderProjects/naftamessanger/nafta.messenger/nafta.messenger.api/nafta.messenger.api/obj/Debug/netcoreapp2.0/nafta.messenger.api.csproj.CoreCompileInputs.cache
+/home/bohdan/RiderProjects/naftamessanger/nafta.messenger/nafta.messenger.api/nafta.messenger.api/obj/Debug/netcoreapp2.0/nafta.messenger.api.AssemblyInfoInputs.cache
+/home/bohdan/RiderProjects/naftamessanger/nafta.messenger/nafta.messenger.api/nafta.messenger.api/obj/Debug/netcoreapp2.0/nafta.messenger.api.AssemblyInfo.cs
+/home/bohdan/RiderProjects/naftamessanger/nafta.messenger/nafta.messenger.api/nafta.messenger.api/obj/Debug/netcoreapp2.0/nafta.messenger.api.dll
+/home/bohdan/RiderProjects/naftamessanger/nafta.messenger/nafta.messenger.api/nafta.messenger.api/obj/Debug/netcoreapp2.0/nafta.messenger.api.pdb

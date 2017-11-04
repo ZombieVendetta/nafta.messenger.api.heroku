@@ -22,7 +22,7 @@ namespace Nafta.Messenger.Api.Controllers
         public Message Get(int userId, int timestamp)
         {
             return _dataContext.Messages
-                .Where(m => m.UserReceiverId == userId)
+                .Where(m => m.UserSenderId == userId)
                 .FirstOrDefault(m => m.SendTimestamp >= timestamp);
         }
 

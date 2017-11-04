@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{73C2BCFF-FAEC-4D68-8EA9-04B51A43BF5C}|Default">
+  <MonoDevelop.Ide.ItemProperties.nafta.messenger.api PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="nafta.messenger.api/Controllers/UserController.cs">
+    <Files>
+      <File FileName="nafta.messenger.api/Controllers/MessagesController.cs" Line="27" Column="10" />
+      <File FileName="nafta.messenger.api/Controllers/UserController.cs" Line="70" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

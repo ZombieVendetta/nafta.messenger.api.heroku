@@ -67,5 +67,18 @@ namespace nafta.messenger.api.Controllers
 
             return Ok(user.Login);
         }
+
+        [HttpGet]
+        [Route("getUserId")]
+        public IActionResult GetUserIdByLogin(string username)
+        {
+            var user = _dataContext.Users
+            .FirstOrDefault(u => u.Login == username);
+
+            if (user == null)
+                return NotFound();
+
+            return Ok(user.UserId);
+        }
     }
 }

@@ -19,11 +19,19 @@ namespace Nafta.Messenger.Api.Controllers
         }
 
         [HttpGet]
-        public Message Get(int userId, int timestamp)
+        public IActionResult Get(int userId, int timestamp)
         {
-            return _dataContext.Messages
-                .Where(m => m.UserSenderId == userId)
-                .FirstOrDefault(m => m.SendTimestamp >= timestamp);
+            var result = _dataContext.Messages
+                                     .Where(m => m.UserSenderId == userId)
+                                     .Where(m => m.SendTimestamp >= timestamp)
+                                     .ToList();
+
+            if (result.Count == 0)
+            {
+                return NotFound();
+            }
+
+            return Ok(result);
         }
 
         [HttpPost]

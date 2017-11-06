@@ -29039,11 +29039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tapkain/Desktop/dev/dotnet/nafta.messenger/nafta.messenger.api/nafta.messenger.api/nafta.messenger.api.csproj",
+      "projectUniqueName": "/Users/tapkain/Desktop/dev/dotnet/nafta.messenger.api.heroku/nafta.messenger.api/nafta.messenger.api.csproj",
       "projectName": "nafta.messenger.api",
-      "projectPath": "/Users/tapkain/Desktop/dev/dotnet/nafta.messenger/nafta.messenger.api/nafta.messenger.api/nafta.messenger.api.csproj",
+      "projectPath": "/Users/tapkain/Desktop/dev/dotnet/nafta.messenger.api.heroku/nafta.messenger.api/nafta.messenger.api.csproj",
       "packagesPath": "/Users/tapkain/.nuget/packages/",
-      "outputPath": "/Users/tapkain/Desktop/dev/dotnet/nafta.messenger/nafta.messenger.api/nafta.messenger.api/obj",
+      "outputPath": "/Users/tapkain/Desktop/dev/dotnet/nafta.messenger.api.heroku/nafta.messenger.api/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tapkain/.config/NuGet/NuGet.Config"

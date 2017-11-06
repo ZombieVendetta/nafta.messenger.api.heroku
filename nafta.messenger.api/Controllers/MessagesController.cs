@@ -22,7 +22,7 @@ namespace Nafta.Messenger.Api.Controllers
         public IActionResult Get(int userId, int timestamp)
         {
             var result = _dataContext.Messages
-                                     .Where(m => m.UserSenderId == userId)
+                                     .Where(m => m.UserSenderId == userId || m.UserReceiverId == userId)
                                      .Where(m => m.SendTimestamp >= timestamp)
                                      .ToList();
 
@@ -31,7 +31,17 @@ namespace Nafta.Messenger.Api.Controllers
                 return NotFound();
             }
 
-            return Ok(result);
+            var mapped = new List<Message>();
+            foreach (var message in result) {
+                if (message.UserReceiverId == userId) {
+                    var temp = message.UserSenderId;
+                    message.UserSenderId = message.UserReceiverId;
+                    message.UserReceiverId = temp;
+                }
+                mapped.Add(message);
+            }
+
+            return Ok(mapped);
         }
 
         [HttpPost]

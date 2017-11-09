@@ -1,0 +1,49 @@
+﻿.navHeader {
+    background: #004d40;
+    display: flex;
+    width: 1500px;
+    height: 40px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.navInner .left {
+    margin: auto;
+    float: left;
+    margin-left: 2%;
+}
+
+.navInner .right {
+    float: right;
+    margin-right: 2%;
+}
+
+.navInner a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.navInner select {
+    border: 0;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+.navInner option {
+    border: 0;
+}
+
+.navInner option[default] {
+    display: none;
+}
+
+* {
+    color: #e0f2f1;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 16px;
+}

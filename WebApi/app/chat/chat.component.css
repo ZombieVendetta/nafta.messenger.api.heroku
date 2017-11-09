@@ -1,0 +1,52 @@
+﻿.chatOuter {
+    background: #00695c;
+    width: 1200px;
+    height: 600px;
+    border-top: 1px solid #e0f2f1;
+}
+
+.chatOuter .chatHeader {
+    background: #004d40;
+    height: 20%;
+}
+
+.chatHeader h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 3% 1% 0 2%;
+    cursor: pointer;
+}
+
+.chatHeader h3 {
+    display: inline-block;
+    padding-left: 2%;
+    margin: 0;
+}
+
+.chatOuter .chatContent {
+    height: 75%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.chatOuter .chatFooter {
+    border-top: solid 1px #e0f2f1;
+    height: 4%;
+}
+
+.chatFooter .txt {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    color: #e0f2f1;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 16px;
+}

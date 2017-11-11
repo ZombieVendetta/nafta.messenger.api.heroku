@@ -1,7 +1,25 @@
 ﻿<Properties StartupConfiguration="{1D7F8CFE-702F-4B47-8AF5-8DA47C5F3C2E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccessLayer/Identity/ApplicationUserManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApi/Properties/PublishProfiles/batmessenger - Web Deploy.pubxml">
     <Files>
       <File FileName="DataAccessLayer/Identity/ApplicationUserManager.cs" Line="1" Column="1" />
+      <File FileName="DataAccessLayer/App.config" Line="1" Column="1" />
+      <File FileName="DataAccessLayer/packages.config" Line="1" Column="1" />
+      <File FileName="BusinessLogicLayer/App.config" Line="1" Column="1" />
+      <File FileName="WebApi/Global.asax" Line="1" Column="1" />
+      <File FileName="WebApi/Global.asax.cs" Line="1" Column="1" />
+      <File FileName="WebApi/Web.config" Line="130" Column="35" />
+      <File FileName="WebApi/Web.Debug.config" Line="11" Column="6" />
+      <File FileName="WebApi/Web.Release.config" Line="1" Column="1" />
+      <File FileName="DataAccessLayer/Context/ApplicationContext.cs" Line="13" Column="52" />
+      <File FileName="WebApi/App_Start/BundleConfig.cs" Line="1" Column="1" />
+      <File FileName="WebApi/App_Start/NinjectWebCommon.cs" Line="1" Column="1" />
+      <File FileName="WebApi/App_Start/Startup.cs" Line="1" Column="1" />
+      <File FileName="WebApi/App_Start/RouteConfig.cs" Line="1" Column="1" />
+      <File FileName="WebApi/App_Start/Startup.Auth.cs" Line="1" Column="1" />
+      <File FileName="WebApi/App_Start/SwaggerConfig.cs" Line="1" Column="1" />
+      <File FileName="WebApi/App_Start/WebApiConfig.cs" Line="11" Column="4" />
+      <File FileName="DataAccessLayer/Repositories/UnitOfWork.cs" Line="24" Column="41" />
+      <File FileName="WebApi/Properties/PublishProfiles/batmessenger - Web Deploy.pubxml" Line="35" Column="222" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

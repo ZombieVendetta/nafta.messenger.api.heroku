@@ -369,14 +369,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\app.component.css" />
-    <Content Include="app\login\login.component.css" />
-    <Content Include="app\chatList\chat-list.component.css" />
-    <Content Include="app\chat\chat.component.css" />
-    <Content Include="app\nav\nav.component.css" />
-    <Content Include="app\profile\profile.component.css" />
-    <Content Include="app\register\register.component.css" />
-    <Content Include="app\search\search.component.css" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -416,7 +408,6 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="package.json" />
     <Content Include="ApplicationInsights.config" />
     <None Include="Properties\PublishProfiles\batmessenger - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -442,7 +433,6 @@
     <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
     <EmbeddedResource Include="Swagger\ui\index.html" />
-    <Content Include="systemjs.config.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -459,7 +449,6 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="tsconfig.json" />
     <Content Include="Swagger\Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -476,28 +465,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="app\app.component.ts" />
-    <TypeScriptCompile Include="app\app.constants.ts" />
-    <TypeScriptCompile Include="app\app.module.ts" />
-    <TypeScriptCompile Include="app\app.routing.module.ts" />
-    <TypeScriptCompile Include="app\auth.service.ts" />
-    <TypeScriptCompile Include="app\login\login.component.ts" />
-    <TypeScriptCompile Include="app\chatList\chat-list.component.ts" />
-    <TypeScriptCompile Include="app\chat\chat.component.ts" />
-    <TypeScriptCompile Include="app\http.service.ts" />
-    <TypeScriptCompile Include="app\main.ts" />
-    <TypeScriptCompile Include="app\models\chat.ts" />
-    <TypeScriptCompile Include="app\models\loginForm.ts" />
-    <TypeScriptCompile Include="app\models\message.ts" />
-    <TypeScriptCompile Include="app\models\registerForm.ts" />
-    <TypeScriptCompile Include="app\models\user.ts" />
-    <TypeScriptCompile Include="app\nav\nav.component.ts" />
-    <TypeScriptCompile Include="app\profile\profile.component.ts" />
-    <TypeScriptCompile Include="app\register\register.component.ts" />
-    <TypeScriptCompile Include="app\app.route-reuse.strategy.ts" />
-    <TypeScriptCompile Include="app\search\search.component.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

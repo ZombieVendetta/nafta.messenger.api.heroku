@@ -84,11 +84,11 @@ namespace WebApi.Controllers
         /// <returns></returns>
         [Route("{chatId}/send")]
         [HttpPost]
-        public IHttpActionResult SendMessage(int chatId, [FromBody]string text)
+        public IHttpActionResult SendMessage(int chatId, [FromBody]Models.MessageViewModel message)
         {
             try
             {
-                service.SendMessage(chatId, User.Identity.GetUserId(), text);
+                service.SendMessage(chatId, User.Identity.GetUserId(), message.Text);
                 return Ok();
             }
             catch (Exception e)
@@ -100,9 +100,9 @@ namespace WebApi.Controllers
         /// <summary>Create chat</summary>
         /// <remarks>Create chat with friend</remarks>
         /// <returns></returns>        
-        [Route("create/{name}")]
+        [Route("create/{name}/{friendId}")]
         [HttpPost]
-        public IHttpActionResult CreateChat([FromBody]string friendId, string name)
+        public IHttpActionResult CreateChat(string friendId, string name)
         {
             try
             {
@@ -118,9 +118,9 @@ namespace WebApi.Controllers
         /// <summary>Add friend to chat</summary>
         /// <remarks>Add friend to chat</remarks>
         /// <returns></returns>
-        [Route("{chatId}/member")]
+        [Route("{chatId}/member/{userId}")]
         [HttpPost]
-        public IHttpActionResult UserToChat([FromBody]string userId, int chatId)
+        public IHttpActionResult UserToChat(string userId, int chatId)
         {
             try
             {

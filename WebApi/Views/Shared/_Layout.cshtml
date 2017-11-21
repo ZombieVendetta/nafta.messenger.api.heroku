@@ -6,17 +6,6 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    <!-- Angular2 Code -->
-    <base href="/">
-    <script src="node_modules/core-js/client/shim.min.js"></script>
-    <script src="node_modules/zone.js/dist/zone.js"></script>
-    <script src="node_modules/reflect-metadata/Reflect.js"></script>
-    <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <script src="systemjs.config.js"></script>
-    <script>
-    System.import('app').catch(function(err){ console.error(err); });
-    </script>
-    <!-- Angular2 Code -->
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -31,11 +20,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>                    
-                    @if (User.IsInRole("admin"))
-                    { 
-                        <li><a href="~/swagger">Swagger</a></li>
-                    }
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li> 
+                    <li><a href="~/swagger">Swagger</a></li>
                     <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">

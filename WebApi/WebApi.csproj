@@ -356,6 +356,7 @@
     <Compile Include="Hubs\ChatHub.cs" />
     <Compile Include="Hubs\MainHub.cs" />
     <Compile Include="Hubs\MessageHub.cs" />
+    <Compile Include="Models\MessageViewModel.cs" />
     <Compile Include="Util\NinjectDependencyResolver.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
